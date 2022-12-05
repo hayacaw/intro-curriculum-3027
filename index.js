@@ -5,7 +5,7 @@ const server = http.createServer((req, res) => {
   res.writeHead(200, {
     'Content-Type': 'text/plain; charset=utf-8'
   });
-  res.end(`echo ${path}`);
+  res.end(${path});
 });
 const port = 8000;
 server.listen(port, () => {
